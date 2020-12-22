@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:text="Sample questions..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_marginLeft="10dp"/>
+    <CheckBox
+        android:id="@+id/checkboxVehicle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Машинтай юу ?"/>
+
+    <CheckBox
+        android:id="@+id/checkboxAnime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Анимэ үздэг үү ?"/>
+
+    <CheckBox
+        android:id="@+id/checkboxRead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ном уншдаг уу ?"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnOk2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ok" />
+
+        <Button
+            android:id="@+id/btnCancel2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancel"/>
+    </LinearLayout>
+
+</LinearLayout>

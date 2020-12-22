@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tableLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/frameLayoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act1"
+            android:layout_column="1"
+            android:onClick="onFrameLayoutClicked"/>
+
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/linearLayoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act2"
+            android:layout_column="2"
+            android:onClick="onLinearLayoutClicked"/>
+    </TableRow>
+
+
+    <TableRow
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/tableLayoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act3"
+            android:layout_column="1"
+            android:onClick="onTableLayoutClicked"/>
+
+        <Button
+            android:layout_weight="1"
+            android:id="@+id/relativeLayoutButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/act4"
+            android:layout_column="2"
+            android:onClick="onRelativeLayoutClicked"/>
+    </TableRow>
+
+
+</TableLayout>

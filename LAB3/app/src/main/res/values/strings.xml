@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LAB3</string>
+    <string name="act1">FRAME LAYOUT</string>
+    <string name="act2">LINEAR LAYOUT</string>
+    <string name="act3">TABLE LAYOUT</string>
+    <string name="act4">RELATIVE LAYOUT</string>
+
+
+    <string name="NAME_KEY">name</string>
+    <string name="AGE_KEY">age</string>
+    <string name="KEY">key</string>
+</resources>
